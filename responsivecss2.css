@@ -1,4 +1,7 @@
 @media only screen and (min-width:320px) {
+    .lastclass {
+        font-size: .5em;
+    }
     .postandtest {
         display: none;
     }

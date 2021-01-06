@@ -1,0 +1,180 @@
+.login {
+    padding: 10px 20px;
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.banner .bannerimage {
+    background-image: url(img/2.png);
+    width: 100%;
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner .bannertext {
+    width: 70%;
+    padding: 10px;
+}
+
+.banner .bannertext h5 {
+    display: none;
+}
+
+.banner .bannertext p {
+    width: 90%;
+    font-size: .8em;
+}
+
+.banner .bannertext button {
+    background: #5164f3;
+    outline: 0;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-size: .7em;
+    padding: 10px 20px;
+    transition: .3s;
+}
+
+.ourservice {
+    width: 100%;
+    background-image: linear-gradient(rgb(219, 219, 219), rgb(241, 241, 241));
+    padding: 10px 0;
+}
+
+.ourservicegrey {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.headingcarousel {
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paracarousel {
+    text-align: center;
+}
+
+.inputsubmit {
+    text-align: center;
+}
+
+.inputjoin {
+    text-align: center;
+}
+
+.headingourservice {
+    color: #2e43e6;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.joinnow {
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    font-size: .8em;
+    color: #fff;
+    font-weight: bold;
+    background-color: #5164f3;
+    padding: 10px 25px;
+    transition: .3s;
+}
+
+.joinnow:hover,
+.testimonial p input[type='submit']:hover,
+.banner .bannertext button:hover {
+    background-color: rgb(87, 87, 87);
+}
+
+.phonecarouselfoot {
+    text-align: center;
+    padding: 0 20px;
+    font-size: .8em;
+}
+
+.ourservicedekhtop,
+.ourservicefoot {
+    display: none;
+}
+
+.payment {
+    width: 100%;
+}
+
+.mobilepayment {
+    margin: 30px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobilepayment .container {
+    position: relative;
+    margin: 2.5em auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mobilepayment .container .card {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mobilepayment .container .card span {
+    font-size: .7em;
+}
+
+.postleftheading {
+    text-align: center;
+    color: #263acf;
+    padding: 10px 0;
+}
+
+.postleftimg,
+.postleftname,
+.testimonial {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.postleftportion {
+    position: relative;
+    padding: 25px 0;
+}
+
+.underlineafter::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    background-color: rgb(195, 195, 195);
+    left: 20%;
+}
+
+.testimonial p input[type='submit'] {
+    padding: 10px 20px;
+    font-size: .9em;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5164f3;
+}
+
+.imageleft {
+    width: 100%;
+}

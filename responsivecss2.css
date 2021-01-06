@@ -1,0 +1,184 @@
+@media only screen and (min-width:320px) {
+    .postandtest {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
+    .mobilefooter {
+        background-color: #090a11;
+        color: #fff;
+        width: 100%;
+    }
+    .mobilefooter table {
+        width: 100%;
+    }
+    .mobilefooter table tr td {
+        padding: 20px;
+        font-weight: bold;
+        color: #5164f3;
+    }
+    .divide {
+        width: 100%;
+        background-color: #090a11;
+        height: 110px;
+    }
+    .mobilefooter .left {
+        position: relative;
+        width: 30%;
+        float: left;
+    }
+    .mobilefooter .left ol li {
+        list-style-type: none;
+    }
+    .mobilefooter .left ol li a {
+        color: #fff;
+    }
+    .mobilefooter .right {
+        float: right;
+        width: 60%;
+        font-size: .7em;
+    }
+}
+
+@media only screen and (min-width:400px) {}
+
+@media only screen and (min-width:476px) {}
+
+@media only screen and (min-width:592px) {}
+
+@media only screen and (min-width:768px) {}
+
+@media only screen and (min-width:413px) {}
+
+@media only screen and (min-width:1000px) {
+    .mobilefooter {
+        display: none;
+    }
+    .footer {
+        display: inline-block
+    }
+    .recentpost {
+        display: none;
+    }
+    .payment .left {
+        width: 50%;
+        float: left;
+    }
+    .payment .right {
+        width: 50%;
+        float: right;
+    }
+    .paymentbackground {
+        width: 100%;
+        height: 30em;
+        box-shadow: 0 -1px 20px rgb(148, 148, 148), 0px 1px 20px rgb(134, 134, 134);
+    }
+    .footer {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        padding: 20px 40px;
+        background-color: #090a11;
+    }
+    .footer .containerfooter {
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer .containerfooter .cardfooter {
+        position: relative;
+        width: 270px;
+        height: 200px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .cardfooter h3 {
+        color: #5164f3;
+        margin: 30px 0;
+    }
+    .cardfooter ol li {
+        list-style-type: none;
+        padding: 8px 0;
+    }
+    .cardfooter ol li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .cardfooter p {
+        color: #fff;
+    }
+    .fontaw li {
+        display: inline;
+        margin: 0 10px;
+        color: #fff;
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width:1400px) {
+    .recentpost {
+        color: #263acf;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 2.5em;
+    }
+    .postandtest {
+        display: inline-block;
+        width: 100%;
+        height: 50em;
+        padding: 3em 4em;
+    }
+    .postwid {
+        height: 42em;
+    }
+    .postleft {
+        float: left;
+        width: 60%;
+        height: 45em;
+    }
+    .postright {
+        float: right;
+        height: 45em;
+        width: 40%;
+    }
+    .postleftdes {
+        width: 100%;
+        height: 14em;
+        margin: 10px 0;
+    }
+    .postleftimage {
+        width: 30%;
+        height: 14em;
+        margin: 0 20px;
+        float: left;
+    }
+    .postleftdescription {
+        width: 65%;
+        height: 14em;
+        float: right;
+    }
+    .imagepost {
+        width: 85%;
+    }
+    .postrightdes {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .knowmorebut {
+        padding: 15px 35px;
+        color: #fff;
+        font-weight: bold;
+        background-color: #3b4dd8;
+        border: 0;
+        transition: .3s;
+    }
+    .knowmorebut:hover {
+        background-color: #505050;
+    }
+}
